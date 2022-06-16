@@ -5,7 +5,7 @@ const Navigation = () =>{
     return (
       <>
         <div className="navigation">
-            <Link className="logo-container" to='/home'>
+            <Link className="logo-container" to='/'>
           <CrwnLogo className="logo"/>
           </Link>
           <div className="nav-links-container">
