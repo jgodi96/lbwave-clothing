@@ -5,7 +5,7 @@ import {Provider} from 'react-redux'
 import App from './App';
 import './index.styles.scss'
 import { BrowserRouter } from 'react-router-dom';
-import { CartProvider } from './context/cart.context';
+
 import {store} from './store/store'
 
 
@@ -17,12 +17,8 @@ root.render(
   <Provider store = {store}>
   <BrowserRouter>
 
-
-    <CartProvider>
   <App />
-  </CartProvider>
 
- 
   </BrowserRouter>
   </Provider>
  
