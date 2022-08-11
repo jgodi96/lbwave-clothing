@@ -9,6 +9,7 @@ import { useEffect} from 'react'
 import { setCurrentUser } from "./store/user/user.action";
 import {useDispatch} from 'react-redux'
 function App() {
+  
   const dispatch = useDispatch();
   useEffect(()=>{
     const unsubscribe = onAuthStateChangedListener((user)=>{
