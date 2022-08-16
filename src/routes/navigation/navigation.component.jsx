@@ -24,7 +24,8 @@ const Navigation = () =>{
       <>
         <NavigationContainer>
             <LogoContainer to='/'>
-          <CrwnLogo className="logo"/>
+
+          <h1 className="brand-name">LB Wave</h1>
           </LogoContainer>
           <NavLinks>
               <NavLink to='/shop'>

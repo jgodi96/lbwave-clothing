@@ -6,11 +6,14 @@ export const NavigationContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+
 `
 export const LogoContainer = styled(Link)`
-  height:100%;
-  width:70px;
-  padding:25px;
+ 
+  .brand-name{
+    height:50px;
+    font-family: 'Rubik Dirt';
+  }
 
 `
 export const NavLinks = styled.div`
